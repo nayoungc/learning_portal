@@ -1,0 +1,132 @@
+{
+  "id": "eks",
+  "name": "Amazon EKS",
+  "description": "관리형 Kubernetes 서비스",
+  "color": "#FF9900",
+  "children": [
+    {
+      "id": "control-plane",
+      "name": "EKS 컨트롤 플레인",
+      "description": "AWS에서 관리되는 Kubernetes 컨트롤 플레인",
+      "color": "#FF9900",
+      "children": [
+        {
+          "id": "etcd",
+          "name": "etcd",
+          "description": "관리형 etcd 서비스"
+        },
+        {
+          "id": "api-server",
+          "name": "API 서버",
+          "description": "고가용성 구성의 API 서버"
+        },
+        {
+          "id": "endpoint",
+          "name": "엔드포인트",
+          "description": "클러스터 API 엔드포인트"
+        }
+      ]
+    },
+    {
+      "id": "data-plane",
+      "name": "데이터 플레인",
+      "description": "워커 노드 및 컴퓨팅 리소스",
+      "color": "#EC7211",
+      "children": [
+        {
+          "id": "managed-node-groups",
+          "name": "관리형 노드 그룹",
+          "description": "EKS에서 관리하는 EC2 인스턴스 그룹",
+          "link": "/beginner/eks_basics#managed-node-groups"
+        },
+        {
+          "id": "self-managed-nodes",
+          "name": "자체 관리형 노드",
+          "description": "사용자가 관리하는 EC2 인스턴스",
+          "link": "/intermediate/eks_management#self-managed-nodes"
+        },
+        {
+          "id": "fargate",
+          "name": "Fargate",
+          "description": "서버리스 컴퓨팅 엔진",
+          "link": "/intermediate/eks_management#fargate"
+        }
+      ]
+    },
+    {
+      "id": "networking",
+      "name": "네트워킹",
+      "description": "EKS 네트워크 통합",
+      "color": "#527FFF",
+      "children": [
+        {
+          "id": "vpc-cni",
+          "name": "VPC CNI",
+          "description": "Amazon VPC CNI 플러그인",
+          "link": "/intermediate/eks_management#vpc-cni"
+        },
+        {
+          "id": "load-balancer-controller",
+          "name": "로드 밸런서 컨트롤러",
+          "description": "AWS Load Balancer Controller",
+          "link": "/intermediate/eks_management#load-balancer-controller"
+        },
+        {
+          "id": "vpc",
+          "name": "VPC",
+          "description": "클러스터 가상 네트워크"
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "name": "보안 및 인증",
+      "description": "EKS 보안 기능",
+      "color": "#D13212",
+      "children": [
+        {
+          "id": "iam-integration",
+          "name": "IAM 통합",
+          "description": "IAM을 통한 인증 및 권한 부여",
+          "link": "/intermediate/eks_management#iam-integration"
+        },
+        {
+          "id": "security-groups",
+          "name": "보안 그룹",
+          "description": "트래픽 제어를 위한 보안 그룹",
+          "link": "/advanced/security#security-groups"
+        },
+        {
+          "id": "pod-security",
+          "name": "Pod 보안",
+          "description": "Pod 수준 보안 정책",
+          "link": "/advanced/security#pod-security"
+        }
+      ]
+    },
+    {
+      "id": "addon",
+      "name": "애드온",
+      "description": "EKS 추가 기능",
+      "color": "#7AA116",
+      "children": [
+        {
+          "id": "cni",
+          "name": "Amazon VPC CNI",
+          "description": "네트워킹 애드온",
+          "link": "/intermediate/eks_management#vpc-cni"
+        },
+        {
+          "id": "coredns",
+          "name": "CoreDNS",
+          "description": "DNS 서비스"
+        },
+        {
+          "id": "kube-proxy",
+          "name": "kube-proxy",
+          "description": "네트워크 프록시"
+        }
+      ]
+    }
+  ]
+}

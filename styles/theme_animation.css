@@ -1,0 +1,37 @@
+/* styles/theme_animation.css - 테마 전환 애니메이션 스타일 */
+
+/* 테마 전환 오버레이 */
+.theme-transition-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 9999;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.theme-transition-overlay.active {
+    opacity: 0.3;
+}
+
+/* 라이트 모드 테마 전환 */
+.theme-transition-overlay.light {
+    background-color: white;
+}
+
+/* 다크 모드 테마 전환 */
+.theme-transition-overlay.dark {
+    background-color: #111;
+}
+
+/* 테마 아이콘 트랜지션 */
+.theme-icon {
+    transition: transform 0.3s ease;
+}
+
+.theme-icon:hover {
+    transform: rotate(30deg);
+}

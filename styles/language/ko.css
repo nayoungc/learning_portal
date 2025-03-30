@@ -1,0 +1,26 @@
+/* 한국어 전용 스타일 */
+.header-title {
+    font-size: 1.7rem;  /* 한국어 헤더 폰트 크기 조정 */
+    letter-spacing: -0.5px;  /* 한글 자간 조정 */
+}
+
+.feature-card h3 {
+    letter-spacing: -0.5px;
+    word-break: keep-all;  /* 단어 분리 방지 */
+}
+
+.chat-message-content {
+    word-break: keep-all;  /* 긴 한글 텍스트가 자연스럽게 줄바꿈 되도록 */
+    line-height: 1.6;  /* 한글에 맞는 줄간격 */
+}
+
+/* 한국어 버튼 텍스트 크기 조정 */
+button {
+    letter-spacing: -0.3px;
+}
+
+/* 마인드맵 한글 노드 스타일 */
+.mindmap-node text {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 0.9em;  /* 한글은 약간 작게 */
+}

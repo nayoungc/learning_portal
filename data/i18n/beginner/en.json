@@ -1,0 +1,16 @@
+{
+    "container_basics": "Container Basics",
+    "kubernetes_intro": "Kubernetes Introduction",
+    "eks_basics": "EKS Basics",
+    "basic_projects": "Basic Projects",
+    "docker_concepts": "Docker Concepts",
+    "container_vs_vm": "Containers vs VMs",
+    "image_building": "Image Building",
+    "kubernetes_architecture": "Kubernetes Architecture",
+    "pods_services": "Pods & Services",
+    "kubectl_basics": "kubectl Basics",
+    "aws_account_setup": "AWS Account Setup",
+    "iam_basics": "IAM Basics",
+    "eks_cluster_creation": "EKS Cluster Creation",
+    "node_group_management": "Node Group Management"
+}

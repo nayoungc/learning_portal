@@ -1,0 +1,19 @@
+/* 영어 전용 스타일 */
+.header-title {
+    font-size: 1.8rem;  /* 영어 헤더 폰트 크기 */
+    letter-spacing: normal;
+}
+
+.feature-card h3 {
+    letter-spacing: normal;
+}
+
+.chat-message-content {
+    word-break: normal;
+    line-height: 1.5;  /* 영문에 맞는 줄간격 */
+}
+
+/* 마인드맵 영문 노드 스타일 */
+.mindmap-node text {
+    font-family: 'Inter', sans-serif;
+}

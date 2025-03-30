@@ -1,0 +1,120 @@
+{
+  "id": "devops",
+  "name": "DevOps 도구",
+  "description": "Kubernetes 및 EKS와 함께 사용하는 DevOps 도구",
+  "color": "#4C4CFF",
+  "children": [
+    {
+      "id": "ci-cd",
+      "name": "CI/CD",
+      "description": "지속적 통합 및 배포 도구",
+      "color": "#4285F4",
+      "children": [
+        {
+          "id": "github-actions",
+          "name": "GitHub Actions",
+          "description": "GitHub의 CI/CD 서비스",
+          "link": "/intermediate/ci_cd_basics#github-actions"
+        },
+        {
+          "id": "jenkins",
+          "name": "Jenkins",
+          "description": "CI/CD 자동화 도구",
+          "link": "/intermediate/ci_cd_basics#jenkins"
+        },
+        {
+          "id": "aws-codepipeline",
+          "name": "AWS CodePipeline",
+          "description": "AWS CI/CD 서비스",
+          "link": "/intermediate/ci_cd_basics#aws-codepipeline"
+        }
+      ]
+    },
+    {
+      "id": "gitops",
+      "name": "GitOps",
+      "description": "Git 기반 운영 도구",
+      "color": "#FBBC04",
+      "children": [
+        {
+          "id": "argocd",
+          "name": "ArgoCD",
+          "description": "GitOps 지속적 배포 도구",
+          "link": "/advanced/gitops#argocd"
+        },
+        {
+          "id": "flux",
+          "name": "Flux",
+          "description": "GitOps 도구",
+          "link": "/advanced/gitops#flux"
+        }
+      ]
+    },
+    {
+      "id": "monitoring",
+      "name": "모니터링",
+      "description": "모니터링 및 관찰성 도구",
+      "color": "#EA4335",
+      "children": [
+        {
+          "id": "prometheus",
+          "name": "Prometheus",
+          "description": "시계열 데이터 모니터링",
+          "link": "/intermediate/monitoring_basics#prometheus"
+        },
+        {
+          "id": "grafana",
+          "name": "Grafana",
+          "description": "데이터 시각화 도구",
+          "link": "/intermediate/monitoring_basics#grafana"
+        },
+        {
+          "id": "cloudwatch",
+          "name": "CloudWatch",
+          "description": "AWS 모니터링 서비스",
+          "link": "/intermediate/monitoring_basics#cloudwatch"
+        }
+      ]
+    },
+    {
+      "id": "service-mesh",
+      "name": "서비스 메시",
+      "description": "마이크로서비스 네트워크 관리",
+      "color": "#34A853",
+      "children": [
+        {
+          "id": "istio",
+          "name": "Istio",
+          "description": "서비스 메시 플랫폼",
+          "link": "/advanced/networking#istio"
+        },
+        {
+          "id": "linkerd",
+          "name": "Linkerd",
+          "description": "경량 서비스 메시",
+          "link": "/advanced/networking#linkerd"
+        }
+      ]
+    },
+    {
+      "id": "package-management",
+      "name": "패키지 관리",
+      "description": "Kubernetes 패키지 관리 도구",
+      "color": "#9C27B0",
+      "children": [
+        {
+          "id": "helm",
+          "name": "Helm",
+          "description": "Kubernetes 패키지 관리자",
+          "link": "/intermediate/helm_basics#helm"
+        },
+        {
+          "id": "kustomize",
+          "name": "Kustomize",
+          "description": "Kubernetes 객체 설정 관리",
+          "link": "/intermediate/helm_basics#kustomize"
+        }
+      ]
+    }
+  ]
+}

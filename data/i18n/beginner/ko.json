@@ -1,0 +1,16 @@
+{
+    "container_basics": "컨테이너 기초",
+    "kubernetes_intro": "Kubernetes 입문",
+    "eks_basics": "EKS 기초",
+    "basic_projects": "기본 실습 프로젝트",
+    "docker_concepts": "Docker 개념",
+    "container_vs_vm": "컨테이너 vs 가상머신",
+    "image_building": "이미지 빌드",
+    "kubernetes_architecture": "Kubernetes 아키텍처",
+    "pods_services": "Pod와 Service",
+    "kubectl_basics": "kubectl 기초",
+    "aws_account_setup": "AWS 계정 설정",
+    "iam_basics": "IAM 기초",
+    "eks_cluster_creation": "EKS 클러스터 생성",
+    "node_group_management": "노드 그룹 관리"
+}

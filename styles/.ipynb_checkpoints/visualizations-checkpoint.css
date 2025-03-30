@@ -1,0 +1,61 @@
+/* styles/visualizations.css - 차트 및 시각화 요소 스타일 */
+
+/* 차트 컨테이너 */
+.chart-container {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    padding: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+/* 차트 제목 스타일 */
+.chart-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0.8rem;
+    color: #333;
+}
+
+/* 마인드맵 스타일 */
+.mindmap-container {
+    height: 600px;
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* 마인드맵 노드 스타일 */
+.mindmap-node {
+    border-radius: 6px;
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: 500;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.mindmap-node.aws {
+    background: linear-gradient(135deg, #EA4335, #C62828);
+    color: white;
+}
+
+.mindmap-node.k8s {
+    background: linear-gradient(135deg, #326CE5, #1A56DB);
+    color: white;
+}
+
+.mindmap-node.devops {
+    background: linear-gradient(135deg, #34A853, #1E8E3E);
+    color: white;
+}
+
+/* 그래프 툴팁 스타일 */
+.graph-tooltip {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 13px;
+    z-index: 1000;
+    pointer-events: none;
+}
